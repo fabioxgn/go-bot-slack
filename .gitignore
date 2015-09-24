@@ -22,3 +22,9 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+# vim swap files
+*.swp
+
+# executable file
+go-bot-slack
