@@ -12,5 +12,5 @@ import (
 )
 
 func main() {
-	slack.RunSlack(os.Getenv("SLACK_TOKEN"))
+	slack.Run(os.Getenv("SLACK_TOKEN"))
 }
